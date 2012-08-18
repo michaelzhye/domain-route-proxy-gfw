@@ -1,3 +1,43 @@
 INSTALL DEMO on Ubuntu:
 
+apt-get update
+apt-get install git-core
+
+cd /
+
+git clone git://github.com/michaelzhye/domain-route-proxy-gfw/
+
+chmod 755 /domain-route-proxy-gfw -Rf
+
+cd /etc/
+mv rc.local rc.local.bak
+
+ln -s /domain-route-proxy-gfw/system/rc.local  /etc/rc.local
+
+ssh-keygen
+
+ssh-copy-id <username>@<hostname>
+
+apt-get install autossh
+
+apt-get install privoxy
+
+apt-get install squid
+
+apt-get install dnsmasq
+
+apt-get install chkconfig
+
+apt-get install insserv*
+
+mv /etc/privoxy/config  /etc/privoxy/config.bak
+mv /etc/squid/squid.conf /etc/squid/squid.conf.bak
+
+ln -s /domain-route-proxy-gfw/privoxy/config.18119  /etc/privoxy/config
+ln -s /domain-route-proxy-gfw/squid/squid.conf /etc/squid/squid.conf
+
+squid -z
+
+mkdir /var/spool/squid3
+
 
