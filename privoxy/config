@@ -1261,6 +1261,7 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+        forward-socks5   .igfw.net             127.0.0.1:51888 .
         forward-socks5   .sourceforge.net             127.0.0.1:51888 .
         forward-socks5   .slideshare.net             127.0.0.1:51888 .
         forward-socks5   .abercrombie.com             127.0.0.1:51888 .
