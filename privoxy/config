@@ -559,8 +559,8 @@ logfile logfile
         debug         1 # Log the destination for each request Privoxy let through. See also debug 1024.
 #        debug         2 # show each connection status
 #        debug         4 # show I/O status
-        debug         8 # show header parsing
-        debug        16 # log all data written to the network into the logfile
+#        debug         8 # show header parsing
+#        debug        16 # log all data written to the network into the logfile
 #        debug        32 # debug force feature
 #        debug        64 # debug regular expression filters
 #        debug       128 # debug redirects
@@ -1261,6 +1261,7 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+        forward-socks5   .nytimes.com             127.0.0.1:51888 .
         forward-socks5   .imgkeep.com             127.0.0.1:51888 .
         forward-socks5   .imagevenue.com             127.0.0.1:51888 .
         forward-socks5   .igfw.net             127.0.0.1:51888 .
