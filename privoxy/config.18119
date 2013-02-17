@@ -1261,6 +1261,14 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+        forward-socks5   .imagebsm.com             127.0.0.1:51888 .
+        forward-socks5   .microsoft.com             127.0.0.1:51888 .
+        forward-socks5   .windows.net             127.0.0.1:51888 .
+        forward-socks5   .norton.com             127.0.0.1:51888 .
+        forward-socks5   .symantec.com             127.0.0.1:51888 .
+        forward-socks5   .skype.com             127.0.0.1:51888 .
+        forward-socks5   .icloud.com             127.0.0.1:51888 .
+        forward-socks5   .ssl-images-amazon.com             127.0.0.1:51888 .
         forward-socks5   .inien.com             127.0.0.1:51888 .
         forward-socks5   .mydogear.com             127.0.0.1:51888 .
         forward-socks5   .dogear.mobi             127.0.0.1:51888 .
