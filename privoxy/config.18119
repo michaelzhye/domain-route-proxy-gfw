@@ -47,7 +47,7 @@
 #  list of values, all separated by whitespace (any number of spaces
 #  or tabs). For example,
 #
-#  actionsfile default.action
+#actionsfile default.action
 #
 #  Indicates that the actionsfile is named 'default.action'.
 #
@@ -371,7 +371,7 @@ logdir /var/log/privoxy
 #
 #actionsfile match-all.action # Actions that are applied to all sites and maybe overruled later on.
 #actionsfile default.action   # Main actions file
-#actionsfile user.action      # User customizations
+actionsfile user.action      # User customizations
 #
 #
 #  2.5. filterfile
@@ -736,6 +736,7 @@ logfile logfile
 #
 #
 listen-address  :18119
+
 #
 #
 #  4.2. toggle
@@ -1261,6 +1262,11 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+
+        forward-socks5   .fukugan.com             127.0.0.1:51888 .
+        forward-socks5   .creaders.net             127.0.0.1:51888 .
+        forward-socks5   .mychinamyhome.com             127.0.0.1:51888 .
+        forward-socks5   .asiaone.com             127.0.0.1:51888 .
         forward-socks5   .imagebsm.com             127.0.0.1:51888 .
         forward-socks5   .microsoft.com             127.0.0.1:51888 .
         forward-socks5   .windows.net             127.0.0.1:51888 .
@@ -1427,7 +1433,6 @@ buffer-limit 40960
         forward-socks5   .hi5.com             127.0.0.1:51888 .
         forward-socks5   .cl             127.0.0.1:51888 .
         forward-socks5   .tw             127.0.0.1:51888 .
-        forward-socks5   .in             127.0.0.1:51888 .
         forward-socks5   .sg             127.0.0.1:51888 .
         forward-socks5   .msguancha.com             127.0.0.1:51888 .
         forward-socks5   .oabt.org             127.0.0.1:51888 .
@@ -1446,7 +1451,6 @@ buffer-limit 40960
 	forward-socks5   .jobsdigg.com             127.0.0.1:51888 .
         forward-socks5   .ressim.net             127.0.0.1:51888 .
         forward-socks5   .bbc.co.uk             127.0.0.1:51888 .
-        forward-socks5   .bbcchinese.com             127.0.0.1:51888 .
         forward-socks5   .android.com             127.0.0.1:51888 .
         forward-socks5   .idv.tw             127.0.0.1:51888 .
         forward-socks5   .twimg.com             127.0.0.1:51888 .
@@ -1774,7 +1778,7 @@ allow-cgi-request-crunching 0
 #
 #      keep-alive-timeout 300
 #
-keep-alive-timeout 6000
+keep-alive-timeout 600
 #
 #
 #  6.5. default-server-timeout
