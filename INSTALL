@@ -40,4 +40,4 @@ squid -z
 
 mkdir /var/spool/squid3
 
-
+ulimit -HSn 655360

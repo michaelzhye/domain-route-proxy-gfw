@@ -1262,7 +1262,13 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
-
+        forward-socks5   .datacenterknowledge.com             127.0.0.1:51888 .
+        forward-socks5   .dolphin-emu.org             127.0.0.1:51888 .
+        forward-socks5   .21andy.com             127.0.0.1:51888 .
+        forward-socks5   .dnspod.nc             127.0.0.1:51888 .
+        forward-socks5   .dongfang118.com             127.0.0.1:51888 .
+        forward-socks5   .seraph.me             127.0.0.1:51888 .
+        forward-socks5   .bangwithfriends.com             127.0.0.1:51888 .
         forward-socks5   .fukugan.com             127.0.0.1:51888 .
         forward-socks5   .creaders.net             127.0.0.1:51888 .
         forward-socks5   .mychinamyhome.com             127.0.0.1:51888 .
