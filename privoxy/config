@@ -371,7 +371,7 @@ logdir /var/log/privoxy
 #
 #actionsfile match-all.action # Actions that are applied to all sites and maybe overruled later on.
 #actionsfile default.action   # Main actions file
-#actionsfile user.action      # User customizations
+actionsfile user.action      # User customizations
 #
 #
 #  2.5. filterfile
@@ -556,7 +556,7 @@ logfile logfile
 #
 #      The available debug levels are:
 #
-        debug         1 # Log the destination for each request Privoxy let through. See also debug 1024.
+#        debug         1 # Log the destination for each request Privoxy let through. See also debug 1024.
 #        debug         2 # show each connection status
 #        debug         4 # show I/O status
 #        debug         8 # show header parsing
@@ -566,7 +566,7 @@ logfile logfile
 #        debug       128 # debug redirects
 #        debug       256 # debug GIF de-animation
         debug       512 # Common Log Format
-        debug      1024 # Log the destination for requests Privoxy didn't let through, and the reason why.
+#        debug      1024 # Log the destination for requests Privoxy didn't let through, and the reason why.
 #        debug      2048 # CGI user interface
 #        debug      4096 # Startup banner and warnings.
 #        debug      8192 # Non-fatal errors
@@ -735,7 +735,7 @@ logfile logfile
 #        listen-address [::1]:8118
 #
 #
-listen-address  :8118
+listen-address  :18119
 #
 #
 #  4.2. toggle

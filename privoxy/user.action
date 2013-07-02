@@ -137,11 +137,21 @@ cpro.baidu.com
 cb.baidu.com
 cbjs.baidu.com
 hm.baidu.com
-#{ +block{alimama ads.} }
-#a.alimama.cn
+{ +block{alimama ads.} }
+a.alimama.cn
+{ +block{yigao ads.} }
+p.yigao.com
+monitor.yigao.com
 { +block{game ads.} }
 .37cs.com
 .feitian001.com
+{ +block{taobao ads.} }
+cdn.tanx.com
+p.tanx.com
+{ +block{cookie mapping.} }
+cm.emarbox.com
+acookie.tanx.com
+
 # The URLs of dynamically generated banners, especially from large banner
 # farms, often don't use the well-known image file name extensions, which
 # makes it impossible for Privoxy to guess the file type just by looking
