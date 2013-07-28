@@ -1261,6 +1261,8 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+        forward-socks5   .mintcats.com             127.0.0.1:51888 .
+        forward-socks5   .51fq.info             127.0.0.1:51888 .
         forward-socks5   .datacenterknowledge.com             127.0.0.1:51888 .
         forward-socks5   .dolphin-emu.org             127.0.0.1:51888 .
         forward-socks5   .21andy.com             127.0.0.1:51888 .
@@ -1382,7 +1384,7 @@ buffer-limit 40960
         forward-socks5   .goo.gl             127.0.0.1:51888 .
         forward-socks5   .tweetmeme.com             127.0.0.1:51888 .
         forward-socks5   .googlecode.com             127.0.0.1:51888 .
-        forward-socks5   .googleadservices.com             127.0.0.1:51888 .
+#        forward-socks5   .googleadservices.com             127.0.0.1:51888 .
         forward-socks5   .mingpao.com             127.0.0.1:51888 .
         forward-socks5   .5i01.com             127.0.0.1:51888 .
         forward-socks5   .hkreporter.com             127.0.0.1:51888 .
@@ -1504,7 +1506,7 @@ buffer-limit 40960
        forward-socks5   .appspot.com           127.0.0.1:51888 .
        forward-socks5   .blogger.com           127.0.0.1:51888 .
        forward-socks5   .dropbox.com           127.0.0.1:51888 .
-       forward-socks5   .flickr.com           127.0.0.1:51888 .
+#       forward-socks5   .flickr.com           127.0.0.1:51888 .
        forward-socks5   .blogspot.com           127.0.0.1:51888 .
        forward-socks5   .chinagfw.org           127.0.0.1:51888 .
        forward-socks5   .us           127.0.0.1:51888 .
