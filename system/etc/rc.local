@@ -11,6 +11,7 @@
 #
 # By default this script does nothing.
 autossh -f -o PreferredAuthentications=publickey -C2qTnN -D 51888 <username>@<hostname>
+iptables -t nat -A POSTROUTING -j MASQUERADE
 echo 1 > /proc/sys/net/ipv4/ip_forward
 # follow is just for route cache
 # iptables -t nat -A PREROUTING -s 100.0.0.0/16 -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128

@@ -1261,6 +1261,22 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+        forward-socks5   .ipinfodb.com             127.0.0.1:51888 .
+        forward-socks5   .strongvpn.com             127.0.0.1:51888 .
+        forward-socks5   .freeweibo.com             127.0.0.1:51888 .
+        forward-socks5   .greatfire.org             127.0.0.1:51888 .
+        forward-socks5   .haotq.com             127.0.0.1:51888 .
+        forward-socks5   .imgdino.com             127.0.0.1:51888 .
+        forward-socks5   .imagebam.com             127.0.0.1:51888 .
+        forward-socks5   .17domn.com             127.0.0.1:51888 .
+        forward-socks5   .kidown.com             127.0.0.1:51888 .
+        forward-socks5   .googledrive.com             127.0.0.1:51888 .
+        forward-socks5   .winmtr.net             127.0.0.1:51888 .
+        forward-socks5   .openvpn.net             127.0.0.1:51888 .
+        forward-socks5   .xuite.net             127.0.0.1:51888 .
+        forward-socks5   .bittorrent.com             127.0.0.1:51888 .
+        forward-socks5   .kr             127.0.0.1:51888 .
+        forward-socks5   .tweetdeck.com             127.0.0.1:51888 .
         forward-socks5   .mintcats.com             127.0.0.1:51888 .
         forward-socks5   .51fq.info             127.0.0.1:51888 .
         forward-socks5   .datacenterknowledge.com             127.0.0.1:51888 .
