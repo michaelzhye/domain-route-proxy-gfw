@@ -1261,6 +1261,7 @@ buffer-limit 40960
         forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+        forward-socks5   .theguardian.com             127.0.0.1:51888 .
         forward-socks5   .ipinfodb.com             127.0.0.1:51888 .
         forward-socks5   .strongvpn.com             127.0.0.1:51888 .
         forward-socks5   .freeweibo.com             127.0.0.1:51888 .
@@ -1271,6 +1272,7 @@ buffer-limit 40960
         forward-socks5   .17domn.com             127.0.0.1:51888 .
         forward-socks5   .kidown.com             127.0.0.1:51888 .
         forward-socks5   .googledrive.com             127.0.0.1:51888 .
+        forward-socks5   .googlevideo.com             127.0.0.1:51888 .
         forward-socks5   .winmtr.net             127.0.0.1:51888 .
         forward-socks5   .openvpn.net             127.0.0.1:51888 .
         forward-socks5   .xuite.net             127.0.0.1:51888 .
@@ -1512,6 +1514,7 @@ buffer-limit 40960
         forward-socks5   .hk             127.0.0.1:51888 .
         forward-socks5   .google.cn             127.0.0.1:51888 .
         forward-socks5   .google.ca             127.0.0.1:51888 .
+        forward-socks5   .google.it             127.0.0.1:51888 .
         forward-socks5   .vimeo.com             127.0.0.1:51888 .
 	forward-socks5   .am             127.0.0.1:51888 .
         forward-socks5   .twitter.com           127.0.0.1:51888 .
