@@ -1258,7 +1258,7 @@ buffer-limit 40960
 #        forward   .sinaimg.cn             127.0.0.1:3128
 #        forward   .sinajs.cn             127.0.0.1:3128
 #        forward   .taobaocdn.com             127.0.0.1:3128
-        forward   :80             127.0.0.1:3128
+#        forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
         forward-socks5   .theguardian.com             127.0.0.1:51888 .
