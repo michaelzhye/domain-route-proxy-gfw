@@ -1261,28 +1261,6 @@ buffer-limit 40960
 #        forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
-        forward-socks5   .paypal.com             127.0.0.1:51888 .
-        forward-socks5   .xe.com             127.0.0.1:51888 .
-        forward-socks5   .pinimg.com             127.0.0.1:51888 .
-
-        forward-socks5   .edgecastdns.net             127.0.0.1:51888 .
-        forward-socks5   .swiftserve.com             127.0.0.1:51888 .
-        forward-socks5   .turkishairlines.com             127.0.0.1:51888 .
-        forward-socks5   .pinimg.com             127.0.0.1:51888 .
-        forward-socks5   .mozilla.net             127.0.0.1:51888 .
-        forward-socks5   .exoclick.com             127.0.0.1:51888 .
-        forward-socks5   .panoramio.com             127.0.0.1:51888 .
-        forward-socks5   .fr             127.0.0.1:51888 .
-        forward-socks5   .google-analytics.com             127.0.0.1:51888 .
-
-        forward-socks5   .digicert.com             127.0.0.1:51888 .
-        forward-socks5   .msftncsi.com             127.0.0.1:51888 .
-        forward-socks5   .wp.com             127.0.0.1:51888 .
-        forward-socks5   .gravatar.com             127.0.0.1:51888 .
-        forward-socks5   .voximplant.com             127.0.0.1:51888 .
-        forward-socks5   .imageab.com             127.0.0.1:51888 .
-        forward-socks5   .imgdino.com             127.0.0.1:51888 .
-        forward-socks5   .tripadvisor.com             127.0.0.1:51888 .
         forward-socks5   .cdninstagram.com             127.0.0.1:51888 .
         forward-socks5   .feedly.com             127.0.0.1:51888 .
         forward-socks5   .inmediahk.net             127.0.0.1:51888 .
