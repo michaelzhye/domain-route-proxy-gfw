@@ -32,7 +32,7 @@ Host *
 #   CheckHostIP yes
 #   AddressFamily any
 #   ConnectTimeout 0
-#   StrictHostKeyChecking ask
+    StrictHostKeyChecking no
 #   IdentityFile ~/.ssh/identity
 #   IdentityFile ~/.ssh/id_rsa
 #   IdentityFile ~/.ssh/id_dsa
@@ -52,3 +52,4 @@ Host *
     HashKnownHosts yes
     GSSAPIAuthentication yes
     GSSAPIDelegateCredentials no
+    UserKnownHostsFile /dev/null
