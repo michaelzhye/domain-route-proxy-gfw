@@ -1261,7 +1261,23 @@ buffer-limit 40960
 #        forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
-       forward-socks5   .edgecastdns.net             127.0.0.1:51888 .
+        forward-socks5   .bayvoice.net             127.0.0.1:51888 .
+        forward-socks5   .gvt1.com             127.0.0.1:51888 .
+        forward-socks5   .adnxs.com             127.0.0.1:51888 .
+        forward-socks5   .computershare.com             127.0.0.1:51888 .
+        forward-socks5   .viidii.info             127.0.0.1:51888 .
+        forward-socks5   .clcl.biz             127.0.0.1:51888 .
+        forward-socks5   .lesile.net             127.0.0.1:51888 .
+        forward-socks5   .mixpanel.com             127.0.0.1:51888 .
+        forward-socks5   .hotavxxx.com             127.0.0.1:51888 .
+        forward-socks5   .me             127.0.0.1:51888 .
+        forward-socks5   .duckduckgo.com             127.0.0.1:51888 .
+        forward-socks5   .akamai.net             127.0.0.1:51888 .
+        forward-socks5   .paypal.com             127.0.0.1:51888 .
+        forward-socks5   .xe.com             127.0.0.1:51888 .
+        forward-socks5   .pinimg.com             127.0.0.1:51888 .
+
+        forward-socks5   .edgecastdns.net             127.0.0.1:51888 .
         forward-socks5   .swiftserve.com             127.0.0.1:51888 .
         forward-socks5   .turkishairlines.com             127.0.0.1:51888 .
         forward-socks5   .pinimg.com             127.0.0.1:51888 .
