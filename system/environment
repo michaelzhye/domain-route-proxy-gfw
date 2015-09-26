@@ -1,6 +1,0 @@
-UTOSSH_POLL=60
-AUTOSSH_DEBUG=1
-AUTOSSH_LOGLEVEL=7
-AUTOSSH_LOGFILE="/var/log/autossh.log"
-AUTOSSH_FIRST_POLL=30
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
