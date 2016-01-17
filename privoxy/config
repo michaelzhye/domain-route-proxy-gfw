@@ -1261,6 +1261,7 @@ buffer-limit 40960
 #        forward   :80             127.0.0.1:3128
 
 # forward to SSH Tunnel
+        forward-socks5   .lululu8.info             127.0.0.1:51888 .
         forward-socks5   .dropboxusercontent.com             127.0.0.1:51888 .
         forward-socks5   .bayvoice.net             127.0.0.1:51888 .
         forward-socks5   .gvt1.com             127.0.0.1:51888 .
