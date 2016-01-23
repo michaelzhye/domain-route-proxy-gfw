@@ -1259,8 +1259,14 @@ buffer-limit 40960
 #        forward   .sinajs.cn             127.0.0.1:3128
 #        forward   .taobaocdn.com             127.0.0.1:3128
 #        forward   :80             127.0.0.1:3128
-
+#         forward-socks5   .             127.0.0.1:51888 .
 # forward to SSH Tunnel
+        forward-socks5   .cloudflare.net             127.0.0.1:51888 .
+        forward-socks5   .cloudflare.com             127.0.0.1:51888 .
+        forward-socks5   .me             127.0.0.1:51888 .
+        forward-socks5   .pw             127.0.0.1:51888 .
+        forward-socks5   .wikipedia.org             127.0.0.1:51888 .
+        forward-socks5   .vot.org             127.0.0.1:51888 .
         forward-socks5   .lululu8.info             127.0.0.1:51888 .
         forward-socks5   .dropboxusercontent.com             127.0.0.1:51888 .
         forward-socks5   .bayvoice.net             127.0.0.1:51888 .
