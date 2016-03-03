@@ -1260,7 +1260,10 @@ buffer-limit 40960
 #        forward   .taobaocdn.com             127.0.0.1:3128
 #        forward   :80             127.0.0.1:3128
 
-# forward to SSH Tunnel
+
+        forward-socks5   .docker.io             127.0.0.1:51888 .
+        forward-socks5   .docker.com             127.0.0.1:51888 .
+        forward-socks5   .ablogtowatch.com             127.0.0.1:51888 .
         forward-socks5   .dropboxusercontent.com             127.0.0.1:51888 .
         forward-socks5   .bayvoice.net             127.0.0.1:51888 .
         forward-socks5   .gvt1.com             127.0.0.1:51888 .
