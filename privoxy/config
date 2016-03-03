@@ -1264,6 +1264,15 @@ buffer-limit 40960
         forward-socks5   .docker.io             127.0.0.1:51888 .
         forward-socks5   .docker.com             127.0.0.1:51888 .
         forward-socks5   .ablogtowatch.com             127.0.0.1:51888 .
+#         forward-socks5   .             127.0.0.1:51888 .
+# forward to SSH Tunnel
+        forward-socks5   .cloudflare.net             127.0.0.1:51888 .
+        forward-socks5   .cloudflare.com             127.0.0.1:51888 .
+        forward-socks5   .me             127.0.0.1:51888 .
+        forward-socks5   .pw             127.0.0.1:51888 .
+        forward-socks5   .wikipedia.org             127.0.0.1:51888 .
+        forward-socks5   .vot.org             127.0.0.1:51888 .
+        forward-socks5   .lululu8.info             127.0.0.1:51888 .
         forward-socks5   .dropboxusercontent.com             127.0.0.1:51888 .
         forward-socks5   .bayvoice.net             127.0.0.1:51888 .
         forward-socks5   .gvt1.com             127.0.0.1:51888 .
