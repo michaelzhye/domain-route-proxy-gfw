@@ -1259,7 +1259,7 @@ buffer-limit 40960
 #        forward   .sinajs.cn             127.0.0.1:3128
 #        forward   .taobaocdn.com             127.0.0.1:3128
 #        forward   :80             127.0.0.1:3128
-
+        forward-socks5   .ubuntu.com             127.0.0.1:51888 .
         forward-socks5   .launchpad.net             127.0.0.1:51888 .
         forward-socks5   .docker.io             127.0.0.1:51888 .
         forward-socks5   .docker.com             127.0.0.1:51888 .
