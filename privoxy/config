@@ -1259,6 +1259,21 @@ buffer-limit 40960
 #        forward   .sinajs.cn             127.0.0.1:3128
 #        forward   .taobaocdn.com             127.0.0.1:3128
 #        forward   :80             127.0.0.1:3128
+        forward-socks5   .igsonar.com             127.0.0.1:51888 .
+        forward-socks5   .stackexchange.com             127.0.0.1:51888 .
+        forward-socks5   .sstatic.net             127.0.0.1:51888 .
+        forward-socks5   .serverfault.com             127.0.0.1:51888 .
+        forward-socks5   .stackoverflow.com             127.0.0.1:51888 .
+        forward-socks5   .sonatype.org             127.0.0.1:51888 .
+        forward-socks5   .sonatype.com             127.0.0.1:51888 .
+        forward-socks5   .apache.org             127.0.0.1:51888 .
+        forward-socks5   .hortonworks.com             127.0.0.1:51888 .
+        forward-socks5   .yimg.com             127.0.0.1:51888 .
+        forward-socks5   .cedexis-radar.net             127.0.0.1:51888 .
+        forward-socks5   .cloudfront.net             127.0.0.1:51888 .
+        forward-socks5   .txmblr.com             127.0.0.1:51888 .
+        forward-socks5   .cloudera.com             127.0.0.1:51888 .
+        forward-socks5   .googlesyndication.com             127.0.0.1:51888 .
         forward-socks5   .boincsynergy.com             127.0.0.1:51888 .
         forward-socks5   .ubuntu.com             127.0.0.1:51888 .
         forward-socks5   .launchpad.net             127.0.0.1:51888 .
@@ -1284,7 +1299,6 @@ buffer-limit 40960
         forward-socks5   .lesile.net             127.0.0.1:51888 .
         forward-socks5   .mixpanel.com             127.0.0.1:51888 .
         forward-socks5   .hotavxxx.com             127.0.0.1:51888 .
-        forward-socks5   .me             127.0.0.1:51888 .
         forward-socks5   .duckduckgo.com             127.0.0.1:51888 .
         forward-socks5   .akamai.net             127.0.0.1:51888 .
         forward-socks5   .paypal.com             127.0.0.1:51888 .
@@ -1337,7 +1351,6 @@ buffer-limit 40960
         forward-socks5   .21andy.com             127.0.0.1:51888 .
         forward-socks5   .dnspod.nc             127.0.0.1:51888 .
         forward-socks5   .dongfang118.com             127.0.0.1:51888 .
-        forward-socks5   .seraph.me             127.0.0.1:51888 .
         forward-socks5   .bangwithfriends.com             127.0.0.1:51888 .
        forward-socks5   .fukugan.com             127.0.0.1:51888 .
         forward-socks5   .creaders.net             127.0.0.1:51888 .
@@ -1377,7 +1390,7 @@ buffer-limit 40960
         forward-socks5   .amakings.com             127.0.0.1:51888 .
         forward-socks5   .fdlive.com             127.0.0.1:51888 .
         forward-socks5   .path.com             127.0.0.1:51888 .
-#        forward-socks5   .wkdown.info             127.0.0.1:51888 .
+        forward-socks5   .wkdown.info             127.0.0.1:51888 .
         forward-socks5   .twitterfeed.com             127.0.0.1:51888 .
         forward-socks5   .chinadigitaltimes.net             127.0.0.1:51888 .
         forward-socks5   .tinypic.com             127.0.0.1:51888 .
@@ -1453,7 +1466,7 @@ buffer-limit 40960
         forward-socks5   .goo.gl             127.0.0.1:51888 .
         forward-socks5   .tweetmeme.com             127.0.0.1:51888 .
         forward-socks5   .googlecode.com             127.0.0.1:51888 .
-#        forward-socks5   .googleadservices.com             127.0.0.1:51888 .
+        forward-socks5   .googleadservices.com             127.0.0.1:51888 .
         forward-socks5   .mingpao.com             127.0.0.1:51888 .
         forward-socks5   .5i01.com             127.0.0.1:51888 .
         forward-socks5   .hkreporter.com             127.0.0.1:51888 .
@@ -1468,7 +1481,6 @@ buffer-limit 40960
         forward-socks5   .vevo.com             127.0.0.1:51888 .
         forward-socks5   .twitvid.com             127.0.0.1:51888 .
         forward-socks5   .breakupnotifier.com             127.0.0.1:51888 .
-        forward-socks5   .577gc.me             127.0.0.1:51888 .
         forward-socks5   .577gc.net             127.0.0.1:51888 .
         forward-socks5   .tenacy.com             127.0.0.1:51888 .
         forward-socks5   .t.co             127.0.0.1:51888 .
@@ -1514,7 +1526,7 @@ buffer-limit 40960
         forward-socks5   .msguancha.com             127.0.0.1:51888 .
         forward-socks5   .oabt.org             127.0.0.1:51888 .
         forward-socks5   74.222.4.86             127.0.0.1:51888 .
-#        forward-socks5   .97down.info             127.0.0.1:51888 .
+        forward-socks5   .97down.info             127.0.0.1:51888 .
         forward-socks5   .gc18.info             127.0.0.1:51888 .
         forward-socks5   .iphonetechie.com             127.0.0.1:51888 .
         forward-socks5   .mitbbs.com             127.0.0.1:51888 .
@@ -1524,7 +1536,6 @@ buffer-limit 40960
         forward-socks5   .quora.com             127.0.0.1:51888 .
         forward-socks5   .donews.com             127.0.0.1:51888 .
         forward-socks5   .ff.im             127.0.0.1:51888 .
-        forward-socks5   .fb.me             127.0.0.1:51888 .
 	forward-socks5   .jobsdigg.com             127.0.0.1:51888 .
         forward-socks5   .ressim.net             127.0.0.1:51888 .
         forward-socks5   .bbc.co.uk             127.0.0.1:51888 .
@@ -1540,8 +1551,7 @@ buffer-limit 40960
         forward-socks5   .middle-way.net             127.0.0.1:51888 .
         forward-socks5   .crazyjolie.com             127.0.0.1:51888 .
         forward-socks5   .blockberry.net             127.0.0.1:51888 .
-        forward-socks5   .htxt.it             127.0.0.1:51888 .
-        forward-socks5   .about.me             127.0.0.1:51888 .
+        forward-socks5   .it             127.0.0.1:51888 .
         forward-socks5   .canyu.org             127.0.0.1:51888 .
         forward-socks5   .linkedin.com             127.0.0.1:51888 .
         forward-socks5   .internetfreedom.org             127.0.0.1:51888 .
