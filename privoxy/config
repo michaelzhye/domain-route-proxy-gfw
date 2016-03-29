@@ -1259,6 +1259,14 @@ buffer-limit 40960
 #        forward   .sinajs.cn             127.0.0.1:3128
 #        forward   .taobaocdn.com             127.0.0.1:3128
 #        forward   :80             127.0.0.1:3128
+        forward-socks5   .scielo.org             127.0.0.1:51888 .
+
+        forward-socks5   .rt.com             127.0.0.1:51888 .
+        forward-socks5   .mozilla.org             127.0.0.1:51888 .
+
+        forward-socks5   .forumfree.net             127.0.0.1:51888 .
+        forward-socks5   .turn.com             127.0.0.1:51888 .
+        forward-socks5   .vk.com             127.0.0.1:51888 .
         forward-socks5   .instagram.com             127.0.0.1:51888 .
         forward-socks5   .ie             127.0.0.1:51888 .
         forward-socks5   .io             127.0.0.1:51888 .
