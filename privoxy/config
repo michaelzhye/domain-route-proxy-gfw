@@ -1266,7 +1266,8 @@ buffer-limit 40960
         forward-socks5   .gvt3.com             127.0.0.1:51888 .
         forward-socks5   .weather.com             127.0.0.1:51888 .
         forward-socks5   .rubiconproject.com             127.0.0.1:51888 .
-
+        forward-socks5   .meetupstatic.com             127.0.0.1:51888 .
+        forward-socks5   .meetup.com             127.0.0.1:51888 .
         forward-socks5   .gvt2.com             127.0.0.1:51888 .
         forward-socks5   .imgur.com             127.0.0.1:51888 .
         forward-socks5   .t66y.com             127.0.0.1:51888 .
