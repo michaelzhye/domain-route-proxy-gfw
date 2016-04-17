@@ -1259,6 +1259,7 @@ buffer-limit 40960
 #        forward   .sinajs.cn             127.0.0.1:3128
 #        forward   .taobaocdn.com             127.0.0.1:3128
 #        forward   :80             127.0.0.1:3128
+        forward-socks5   .dockerproject.org            127.0.0.1:51888 .
         forward-socks5   .be             127.0.0.1:51888 .
         forward-socks5   .scielo.org             127.0.0.1:51888 .
         forward-socks5   .zolebox.com             127.0.0.1:51888 .
