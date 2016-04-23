@@ -1265,6 +1265,8 @@ buffer-limit 40960
         forward-socks5   .entrust.net            127.0.0.1:51888 .
         forward-socks5   .livechatinc.com            127.0.0.1:51888 .
         forward-socks5   .dockerproject.org            127.0.0.1:51888 .
+        forward-socks5   .airbnb.com             127.0.0.1:51888 .
+        forward-socks5   .draios.com             127.0.0.1:51888 .
         forward-socks5   .be             127.0.0.1:51888 .
         forward-socks5   .scielo.org             127.0.0.1:51888 .
         forward-socks5   .zolebox.com             127.0.0.1:51888 .
